@@ -21,12 +21,11 @@
   justify-content: center;
   align-items: center;
   height: 100%;
-  border: 2px solid red;
+
   padding-left: 20px;
   padding-right: 20px;
 }
 .talisay-text {
-  border: 2px solid blue;
   margin-left: 20px;
 }
 .talisay-text > h1 {
@@ -41,7 +40,6 @@
 }
 
 .header-text {
-  border: 2px solid blue;
   margin-left: auto;
   display: flex;
   justify-content: center;
@@ -52,8 +50,7 @@
   letter-spacing: 0.2em;
 }
 
-.header-notifs {
-  border: 2px solid green;
+/* .header-notifs {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -64,12 +61,12 @@
 #notif {
   width: 35px;
   height: 35px;
-}
+} */
 
 .logo {
   width: 80px;
   height: 80px;
-  border: 2px solid black;
+
   margin: 0;
 }
 
@@ -110,16 +107,14 @@
   border-radius: 20px;
 }
 .first-container-text {
-  border: 1px solid black;
   margin-left: 20px;
 }
 
 .button-container {
-  border: 1px solid black;
   width: auto;
   height: fit-content;
   margin: 25px;
-  margin-top: 10px;
+  margin-top: 18px;
   display: flex;
   justify-content: space-between;
 }
@@ -145,7 +140,6 @@
 /* HREF ANCHOR TAG PERO NAKA BUTTON SIYA */
 
 .second-container {
-  border: 2px solid black;
   display: flex;
 }
 .property-detail {
@@ -154,18 +148,20 @@
   width: 720px;
   height: auto;
   display: flex;
+  border-radius: 20px;
 }
 .property-image-container {
   border: 1px solid black;
   width: 200px;
   height: 200px;
   margin: 20px;
+  border-radius: 20px;
 }
 .text-container-inner {
-  border: 1px solid yellow;
   display: flex;
   margin-top: 10px;
   align-items: center;
+  padding: 8px;
 }
 
 .text-container > p {
@@ -186,35 +182,93 @@
   height: auto;
   display: flex;
   flex-direction: column;
+  border-radius: 20px;
 }
 .another-image-container {
   display: flex;
-  border: 1px solid blue;
+
   width: 100%;
   justify-content: space-around;
 }
 .another-image-container > .property-image-container {
-  width: 100px;
-  height: 100px;
+  width: 130px;
+  height: 130px;
+  border-radius: 20px;
 }
 
 /* ======================================================================== */
 
 .final-container {
-  border: 1px solid purple;
   display: flex;
 }
 .final-container-left {
-  border: 1px solid purple;
   width: 50%;
   height: auto;
 }
-.up-box {
+.up-box-first {
   border: 1px solid red;
+  margin: 20px;
+  display: flex;
+  border-radius: 20px;
+  padding: 5px;
+}
+#gmap {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+}
+.gmap-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  padding: 2px;
+}
+.gmap-text > p {
+  margin-bottom: 5px;
+}
+.gmap-text > .hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
+/* .up-box-second {
+  border: 1px solid red;
+  margin: 20px;
+} */
+
 .final-container-right {
-  border: 1px solid purple;
   width: 90%;
   height: auto;
+}
+.up-box-third {
+  border: 1px solid red;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+}
+.up-box-third > p {
+  margin: 18px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+}
+.divide-boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.boxes {
+  border: 1px solid black;
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  border-radius: 20px;
+}
+.boxes > p {
+  padding: 8px;
+}
+#number-size {
+  font-size: 40px;
 }

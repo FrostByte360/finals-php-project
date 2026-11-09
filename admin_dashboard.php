@@ -24,9 +24,9 @@
         <div class="header-text">
         <p>Owner Workspace</p>
         </div>
-        <div class="header-notifs">
+        <!-- <div class="header-notifs">
             <img id="notif" src="assets/notif.png">
-        </div>
+        </div> -->
         <div class="logo-container-profile">
             <div class="header-profile">
             <img class="logo-profile" src="assets/user.png">
@@ -77,7 +77,7 @@
             <div class="text-container">
                 <div class="text-container-inner">
                     <img src="assets/gallery.png">
-                    <p>Gallery</p>
+                    <p id="nameBH">Gallery</p>
                 </div>
             </div>
 
@@ -94,11 +94,43 @@
 </div>
 
 <div class="final-container">
-    <div class="final-container-left">asdf
-        <div class="up-box">sdgas</div>
-        <div class="up-box">sdgas</div>
+    <div class="final-container-left">
+        <div class="up-box-first">
+            <div class="gmap-box">
+                <img src="assets/google-maps.png" id="gmap">
+            </div>
+            <div class="gmap-text">
+                <p id="nameBH">Property Location</p>
+                <p>Talisay City, Negros Occidental</p>
+                <div class="hr"><hr></div>
+                <a href="https://maps.google.com" target="_blank">Open in Google Maps</a>
+            </div>
+        </div>
+        <!-- <div class="up-box-second">sdgas</div> -->
     </div>
-    <div class="final-container-right">asdf</div>
+    <div class="final-container-right">
+        <div class="up-box-third">
+            <p id="nameBH">Boarding House Statistics</p>
+            <div class="divide-boxes">
+                <div class="boxes">
+                    <p class="curcial-number" id="number-size">67</p>
+                    <p>Total Number of Boarders</p>
+                </div>
+                <div class="boxes">
+                    <p class="curcial-number" id="number-size">67</p>
+                    <p>Rooms Occupied</p>
+                </div>
+                <div class="boxes">
+                    <p class="curcial-number" id="number-size">67</p>
+                    <p>Available Rooms</p>
+                </div>
+                <div class="boxes">
+                    <p class="curcial-number" id="number-size">67</p>
+                    <p>Room Occupancy</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 </body>

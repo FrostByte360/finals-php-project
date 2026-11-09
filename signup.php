@@ -34,7 +34,7 @@
             <p class="header2">Find your home or manage your boarding house.</p>
         </div>
 
-        <form action="process_signup.php" method="POST">
+<form action="process_signup.php" method="POST">
 
     <!-- ACCOUNT TYPE -->
     <p>I am a...</p>
