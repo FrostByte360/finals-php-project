@@ -118,7 +118,7 @@ body {
 .button-container {
   width: auto;
   height: fit-content;
-  margin: 25px;
+  margin: 10px;
   margin-top: 18px;
   display: flex;
   justify-content: space-between;
@@ -149,14 +149,16 @@ body {
 
 .second-container {
   display: flex;
+  margin: 0;
 }
 .property-detail {
   margin: 25px;
+  margin-top: 10px;
   width: 720px;
   height: auto;
   display: flex;
   border-radius: 20px;
-  background: linear-gradient(to bottom, white, #cde4ff);
+  background-color: white;
 }
 .property-image-container {
   border: 1px solid black;
@@ -176,6 +178,9 @@ body {
   font-size: 12px;
   padding: 5px;
 }
+.text-container > .randomz {
+  padding-left: 20px;
+}
 #nameBH {
   font-size: 32px;
   font-weight: 700;
@@ -185,12 +190,13 @@ body {
 
 .second-property-detail {
   margin: 25px;
+  margin-top: 10px;
   width: 720px;
   height: auto;
   display: flex;
   flex-direction: column;
   border-radius: 20px;
-  background: linear-gradient(to bottom, white, #cde4ff);
+  background-color: white;
 }
 .another-image-container {
   display: flex;
@@ -218,7 +224,8 @@ body {
   display: flex;
   border-radius: 20px;
   padding: 5px;
-  background: linear-gradient(to bottom, white, #cde4ff);
+  background-color: white;
+  margin-top: 10px;
 }
 #gmap {
   width: 100px;
@@ -254,7 +261,8 @@ body {
   display: flex;
   flex-direction: column;
   border-radius: 20px;
-  background: linear-gradient(to bottom, white, #cde4ff);
+  background-color: white;
+  margin-top: 10px;
 }
 .up-box-third > p {
   margin: 18px;
@@ -265,18 +273,34 @@ body {
 .divide-boxes {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
+}
+.divide-boxes-inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border: 1px solid white;
+  background-color: white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 20px;
 }
 .boxes {
   background-color: white;
   width: 150px;
   height: 150px;
-  margin: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   border-radius: 20px;
 }
 .boxes > p {
   padding: 8px;
+  color: #8291a3;
 }
-#number-size {
+.boxes > .curcial-number {
   font-size: 40px;
+  font-weight: 600;
+  color: #404f61;
 }

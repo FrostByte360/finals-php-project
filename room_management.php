@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="styleRoomManagement.css">
 
     <script src="room_management.js" defer></script>
+    <script src="roomData.js" defer></script>
+    <script src="roomManagement.js" defer></script>
 </head>
 <body>
 

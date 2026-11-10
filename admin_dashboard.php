@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styleDashboard.css">
+    <script src="roomData.js" defer></script>
+    <script src="dashboardStatistics.js" defer></script>
 </head>
 <body>
 
@@ -88,7 +90,7 @@
             <div class="text-container"><hr></div>
 
             <div class="text-container">
-                <p>A glimpse of your boarding house.</p>
+                <p class="randomz">A glimpse of your boarding house.</p>
             </div>
     </div>
 </div>
@@ -112,22 +114,29 @@
         <div class="up-box-third">
             <p id="nameBH">Boarding House Statistics</p>
             <div class="divide-boxes">
-                <div class="boxes">
-                    <p class="curcial-number" id="number-size">67</p>
-                    <p>Total Number of Boarders</p>
-                </div>
-                <div class="boxes">
-                    <p class="curcial-number" id="number-size">67</p>
-                    <p>Rooms Occupied</p>
-                </div>
-                <div class="boxes">
-                    <p class="curcial-number" id="number-size">67</p>
-                    <p>Available Rooms</p>
-                </div>
-                <div class="boxes">
-                    <p class="curcial-number" id="number-size">67</p>
-                    <p>Room Occupancy</p>
-                </div>
+                <div class="divide-boxes-inner">
+
+    <div class="boxes">
+        <p class="curcial-number" id="totalBoarders">0</p>
+        <p>Total Number of Boarders</p>
+    </div>
+
+    <div class="boxes">
+        <p class="curcial-number" id="occupiedRooms">0</p>
+        <p>Rooms Occupied</p>
+    </div>
+
+    <div class="boxes">
+        <p class="curcial-number" id="availableRooms">0</p>
+        <p>Available Rooms</p>
+    </div>
+
+    <div class="boxes">
+        <p class="curcial-number" id="occupancyRate">0%</p>
+        <p>Room Occupancy</p>
+    </div>
+
+</div>
             </div>
         </div>
     </div>
