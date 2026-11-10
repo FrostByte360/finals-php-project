@@ -65,6 +65,8 @@
     <a href="room_management.php" class="custom-button active">
         Room Management
     </a>
+
+    <a href="room_management.php" class="custom-button">Messages</a>
 </div>
 
 

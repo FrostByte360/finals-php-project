@@ -50,6 +50,7 @@
 <div class="button-container">
     <a href="admin_dashboard.php" class="custom-button">Dashboard</a>
     <a href="room_management.php" class="custom-button">Room Management</a>
+    <a href="room_management.php" class="custom-button">Messages</a>
 </div>
 
 <div class="second-container">
