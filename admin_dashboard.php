@@ -103,7 +103,7 @@
                 <p id="nameBH">Property Location</p>
                 <p>Talisay City, Negros Occidental</p>
                 <div class="hr"><hr></div>
-                <a href="https://maps.google.com" target="_blank">Open in Google Maps</a>
+                <a href="https://maps.app.goo.gl/FYtnm5KcKZofEpT67" target="_blank">Open in Google Maps</a>
             </div>
         </div>
         <!-- <div class="up-box-second">sdgas</div> -->

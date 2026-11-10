@@ -3,17 +3,22 @@
   padding: 0;
   box-sizing: border-box;
   font-family: poppins, sans-serif;
+  color: #404f61;
+}
+
+body {
+  background-color: #e7eff8;
 }
 
 /* STRICTLY DO NOT TOUCH THE CODE BELOW THIS LINE */
 /*========================================*/
 
 .header {
-  border: 2px solid black;
   width: 100%;
   height: 100px;
   display: flex;
   justify-content: space-between;
+  background-color: white;
 }
 
 .logo-container {
@@ -90,7 +95,6 @@
 /* STRICTLY DO NOT TOUCH THE CODE ABOVE THIS LINE */
 
 .first-container {
-  border: 1px solid black;
   margin: 25px;
   margin-bottom: 0;
   width: auto;
@@ -99,12 +103,13 @@
   align-items: center;
   justify-content: left;
   border-radius: 20px;
+  background: linear-gradient(to left, #e7eff8, #cde4ff);
 }
 .random-rectangle {
-  border: 1px solid black;
   width: 3.5px;
   height: 90px;
   border-radius: 20px;
+  background-color: #516f96;
 }
 .first-container-text {
   margin-left: 20px;
@@ -126,8 +131,11 @@
   text-decoration: none;
   padding: 12px 24px;
   border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-  background-color: aqua;
+  background-color: #516f96;
   color: white;
   width: 49.5%;
   height: 35px;
@@ -143,12 +151,12 @@
   display: flex;
 }
 .property-detail {
-  border: 1px solid black;
   margin: 25px;
   width: 720px;
   height: auto;
   display: flex;
   border-radius: 20px;
+  background: linear-gradient(to bottom, white, #cde4ff);
 }
 .property-image-container {
   border: 1px solid black;
@@ -176,13 +184,13 @@
 /* ======================================================================== */
 
 .second-property-detail {
-  border: 1px solid black;
   margin: 25px;
   width: 720px;
   height: auto;
   display: flex;
   flex-direction: column;
   border-radius: 20px;
+  background: linear-gradient(to bottom, white, #cde4ff);
 }
 .another-image-container {
   display: flex;
@@ -206,11 +214,11 @@
   height: auto;
 }
 .up-box-first {
-  border: 1px solid red;
   margin: 20px;
   display: flex;
   border-radius: 20px;
   padding: 5px;
+  background: linear-gradient(to bottom, white, #cde4ff);
 }
 #gmap {
   width: 100px;
@@ -242,11 +250,11 @@
   height: auto;
 }
 .up-box-third {
-  border: 1px solid red;
   margin: 20px;
   display: flex;
   flex-direction: column;
   border-radius: 20px;
+  background: linear-gradient(to bottom, white, #cde4ff);
 }
 .up-box-third > p {
   margin: 18px;
@@ -260,7 +268,7 @@
   justify-content: space-around;
 }
 .boxes {
-  border: 1px solid black;
+  background-color: white;
   width: 150px;
   height: 150px;
   margin: 20px;
