@@ -129,7 +129,7 @@
             <br>
             <a href="terms_of_service.html">Terms of Service</a>
             and
-            <a href="terms_of_service.html">Privacy Policy</a>
+            <a href="privacy_policy.html">Privacy Policy</a>
         </p>
     </div>
 
